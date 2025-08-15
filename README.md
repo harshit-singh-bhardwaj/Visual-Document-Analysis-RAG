@@ -29,3 +29,36 @@ Built with **Streamlit**, **LangChain**, and **OCR** tools to extract text and p
 ```bash
 git clone https://github.com/harshit-singh-bhardwaj/Visual-Document-Analysis-RAG.git
 cd Visual-Document-Analysis-RAG
+
+Create a virtual environment
+python3 -m venv .venv
+source .venv/bin/activate  # macOS/Linux
+.venv\Scripts\activate     # Windows
+
+Install dependencies
+pip install -r requirements.txt
+
+Set environment variables
+Create a .env file in the root directory and add:
+OPENAI_API_KEY=your_api_key_here
+
+Run the app locally
+streamlit run app.py
+
+🌐 Deployment
+The app is deployed using Streamlit Cloud.
+You can try it here: Live App Link
+
+📄 Project Structure
+.
+├── app.py                # Main Streamlit application
+├── requirements.txt      # Dependencies
+├── README.md             # Project documentation
+├── data/                 # Sample documents
+└── .env.example          # Environment variable template
+
+📜 License
+This project is licensed under the MIT License.
+
+✨ Author
+Harshit Singh Bhardwaj
