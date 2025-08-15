@@ -45,12 +45,12 @@ OPENAI_API_KEY=your_api_key_here
 Run the app locally
 streamlit run app.py
 
-<<<<<<< HEAD
+
 =======
 ---
 
->>>>>>> 745a96b32666aa059eaee32fbfab306b045e7ab8
-## 🌐 Deployment
+
+## 🧪 How to Run Locally
 The app is deployed using Streamlit Cloud.
 You can try it here: Live App Link
 
