@@ -1,11 +1,12 @@
-# Visual Document Analysis RAG
+# 📄 Visual Document Analysis with RAG  
 
-An AI-powered application for analyzing and querying visual documents (PDFs, scanned images, etc.) using a Retrieval-Augmented Generation (RAG) pipeline.  
-Built with **Streamlit**, **LangChain**, and **OCR** tools to extract text and provide intelligent answers to user queries.
+**An AI-powered application for intelligent document understanding and Q&A**  
+Built with **LangChain, OpenAI, and PyMuPDF**, this project uses **Retrieval-Augmented Generation (RAG)** to answer natural language queries from uploaded PDFs.  
 
 ---
 
 ## 🚀 Features
+
 - Upload PDFs and image-based documents.
 - Extract text from scanned pages using OCR.
 - Store and retrieve document embeddings for fast query answering.
@@ -14,7 +15,8 @@ Built with **Streamlit**, **LangChain**, and **OCR** tools to extract text and p
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
+
 - **Python 3.12**
 - **Streamlit** – Web app UI
 - **LangChain** – RAG pipeline
@@ -24,57 +26,54 @@ Built with **Streamlit**, **LangChain**, and **OCR** tools to extract text and p
 
 ---
 
-## 📦 Installation
-1. **Clone the repository**
-```bash
-git clone https://github.com/harshit-singh-bhardwaj/Visual-Document-Analysis-RAG.git
-cd Visual-Document-Analysis-RAG
+## 📂 Project Structure
 
-Create a virtual environment
-python3 -m venv .venv
-source .venv/bin/activate  # macOS/Linux
-.venv\Scripts\activate     # Windows
-
-Install dependencies
-pip install -r requirements.txt
-
-Set environment variables
-Create a .env file in the root directory and add:
-OPENAI_API_KEY=your_api_key_here
-
-Run the app locally
-streamlit run app.py
-
-
-=======
+```plaintext
+Visual-Document-Analysis-RAG/
+│
+├── app.py                    # Main Streamlit application
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project documentation
+└── LICENSE                   # MIT License
+```
 ---
 
+## 📦 Installation  
 
-## 🧪 How to Run Locally
+**1️⃣ Clone the repository**  
+git clone https://github.com/harshit-singh-bhardwaj/Visual-Document-Analysis-RAG.git  
+cd Visual-Document-Analysis-RAG
+
+**2️⃣ Create virtual environment**  
+```plaintext
+python -m venv venv  
+source venv/bin/activate         # Mac/Linux  
+venv\Scripts\activate            # Windows
+```
+
+**3️⃣ Install dependencies**  
+pip install -r requirements.txt
+
+**4️⃣ Set environment variable for OpenAI API key** 
+```plaintext
+export OPENAI_API_KEY="your_api_key"   # Mac/Linux  
+setx OPENAI_API_KEY "your_api_key"     # Windows
+```
+
+---
+
+## ▶️ Usage
+streamlit run app.py
+1. Upload a PDF document.
+2. Enter your query in the text box.
+3. View AI-generated responses based on your document content.
+
+---
+
+## 🌐 Deployment
 The app is deployed using Streamlit Cloud.
 You can try it here: Live App Link
 
-<<<<<<< HEAD
-📄 Project Structure
-=======
----
-
-## 📄 Project Structure
->>>>>>> 745a96b32666aa059eaee32fbfab306b045e7ab8
-.
-├── app.py                # Main Streamlit application
-├── requirements.txt      # Dependencies
-├── README.md             # Project documentation
-├── data/                 # Sample documents
-└── .env.example          # Environment variable template
-
-<<<<<<< HEAD
-📜 License
-This project is licensed under the MIT License.
-
-✨ Author
-Harshit Singh Bhardwaj
-=======
 ---
 
 ## 📜 License
@@ -84,4 +83,3 @@ This project is licensed under the MIT License.
 
 ## ✨ Author
 Harshit Singh Bhardwaj
->>>>>>> 745a96b32666aa059eaee32fbfab306b045e7ab8
