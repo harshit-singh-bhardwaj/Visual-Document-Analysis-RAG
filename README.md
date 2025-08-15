@@ -61,6 +61,10 @@ setx OPENAI_API_KEY "your_api_key"     # Windows
 ```
 
 ---
+## 📸 Screenshots
+<img width="1403" height="488" alt="Screenshot 2025-08-16 at 2 06 59 AM" src="https://github.com/user-attachments/assets/eba78d79-10b2-49d1-9618-054a7fb13eab" />
+
+---
 
 ## ▶️ Usage
 streamlit run app.py
