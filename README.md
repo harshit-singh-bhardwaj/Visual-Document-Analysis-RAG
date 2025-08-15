@@ -45,11 +45,11 @@ OPENAI_API_KEY=your_api_key_here
 Run the app locally
 streamlit run app.py
 
-🌐 Deployment
+## 🌐 Deployment
 The app is deployed using Streamlit Cloud.
 You can try it here: Live App Link
 
-📄 Project Structure
+## 📄 Project Structure
 .
 ├── app.py                # Main Streamlit application
 ├── requirements.txt      # Dependencies
@@ -57,8 +57,8 @@ You can try it here: Live App Link
 ├── data/                 # Sample documents
 └── .env.example          # Environment variable template
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License.
 
-✨ Author
+## ✨ Author
 Harshit Singh Bhardwaj
