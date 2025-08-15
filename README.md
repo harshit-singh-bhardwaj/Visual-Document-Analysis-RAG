@@ -45,7 +45,7 @@ OPENAI_API_KEY=your_api_key_here
 Run the app locally
 streamlit run app.py
 
-🌐 Deployment
+## 🌐 Deployment
 The app is deployed using Streamlit Cloud.
 You can try it here: Live App Link
 
