@@ -75,7 +75,7 @@ streamlit run app.py
 ---
 
 ## 🌐 Deployment
-The app is deployed using Streamlit Cloud.
+The app is deployed using Streamlit Cloud.  
 You can try it here: Live App Link
 
 ---
