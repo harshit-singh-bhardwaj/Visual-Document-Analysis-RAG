@@ -76,7 +76,7 @@ streamlit run app.py
 
 ## 🌐 Deployment
 The app is deployed using Streamlit Cloud.  
-You can try it here: Live App Link
+You can try it here: https://visual-document-analysis-rag.streamlit.app
 
 ---
 
